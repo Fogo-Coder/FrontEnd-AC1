@@ -8,8 +8,8 @@ import { ApoliceSeguroComponent } from './apolice-seguro/apolice-seguro.componen
 
 
 export const routes: Routes = [
-    {path: '',redirectTo:'calculadoramedia',pathMatch:'full'},
-    {path:'calculadoramedia',component:CalcularMediaComponent},
+    {path: '',redirectTo:'calcular-media',pathMatch:'full'},
+    {path:'calcular-media',component:CalcularMediaComponent},
     {path:'calculadora', component:CalculadoraComponent},
     {path:'apolice-seguro', component:ApoliceSeguroComponent},
     {path:'calculadora-imc', component:CalculadoraIMCComponent},

@@ -1,5 +1,6 @@
-<<<<<<< HEAD
 /* To learn more about Typescript configuration file: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html. */
+/* Schema validation disabled to avoid external dependency issues. */
+/* eslint-disable */
 /* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options. */
 {
   "extends": "./tsconfig.json",
@@ -15,21 +16,3 @@
     "src/**/*.d.ts"
   ]
 }
-=======
-/* To learn more about Typescript configuration file: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html. */
-/* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options. */
-{
-  "extends": "./tsconfig.json",
-  "compilerOptions": {
-    "outDir": "./out-tsc/spec",
-    "types": [
-      "jasmine",
-      "@angular/localize"
-    ]
-  },
-  "include": [
-    "src/**/*.spec.ts",
-    "src/**/*.d.ts"
-  ]
-}
->>>>>>> c935381b10630f53467601ab22e994a06e2e9f30
